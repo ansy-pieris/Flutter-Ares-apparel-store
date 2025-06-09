@@ -14,7 +14,7 @@ class _MainNavigationState extends State<MainNavigation> {
 
   final List<Widget> _screens = [
     HomeScreen(),
-    CategoryScreen(categoryName: 'All'), // can use general view for now
+    CategoryScreen(), // can use general view for now
     CartScreen(),
     ProfileScreen(),
   ];
