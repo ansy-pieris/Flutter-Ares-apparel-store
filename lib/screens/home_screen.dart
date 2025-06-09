@@ -20,9 +20,9 @@ class HomeScreen extends StatelessWidget {
   ];
 
   final List<String> carouselImages = [
-    'assets/images/hero.jpg',
-    'assets/images/Ares2.jpg',
     'assets/images/Ares.jpg',
+    'assets/images/hero.jpg',
+    'assets/images/hero2.jpg',
   ];
 
   @override
@@ -60,7 +60,7 @@ class HomeScreen extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // ✅ Carousel Image
+            
             CarouselSlider(
               options: CarouselOptions(
                 height: isPortrait ? 240 : 180,
@@ -89,7 +89,7 @@ class HomeScreen extends StatelessWidget {
             ),
             const SizedBox(height: 20),
 
-            // Best Sellers
+            
             Text(
               "Best Sellers",
               style: TextStyle(
@@ -120,7 +120,7 @@ class HomeScreen extends StatelessWidget {
             ),
             const SizedBox(height: 20),
 
-            // Featured Products
+            
             Text(
               "Featured Products",
               style: TextStyle(
